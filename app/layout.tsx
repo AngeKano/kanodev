@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="bg-backLight">
+    <html lang="en" className="bg-backLight overflow-hidden">
       <Script type="text/javascript" src="/script/script.js" />
       <body className={inter.className}>{children}</body>
     </html>
