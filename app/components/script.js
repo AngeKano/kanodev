@@ -1,7 +1,9 @@
+
 const mouse = document.querySelector("#mouse");
 const sml = document.querySelector("#sml");
 const click = document.querySelector("#click");
 const items = document.querySelectorAll('#item')
+
 
 
 window.addEventListener("mousemove", (e) => {

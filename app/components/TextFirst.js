@@ -1,8 +1,6 @@
 import React from "react";
 import Link from "next/link";
 
-import "../globals.css";
-
 const TextFirst = () => {
   return (
     <div className="containers gap-y-2">
