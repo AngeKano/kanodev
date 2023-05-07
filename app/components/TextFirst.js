@@ -22,10 +22,14 @@ const TextFirst = () => {
           <div className="absolute border-t-2 bg-light-color border-t-first-color w-full h-6 bg-opacity-25 top-0 left-0 translate-x-0 translate-y-11 -z-1"></div>
         </div>
       </div>
-      <span className="text-3xl">
+      <span className="text-3xl ">
         Je suis developpeur Front-end & web integrateur
       </span>
-      <div id="text" class="flex items-center gap-x-2 mt-6  ">
+      <Link
+        href={"/about"}
+        id="text"
+        class="flex items-center gap-x-2 mt-6 relative "
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -40,11 +44,13 @@ const TextFirst = () => {
             d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
           />
         </svg>
-        <Link href="/" legacyBehavior>
-          <a>About Us</a>
-        </Link>
-        <span className="text-2xl font-light ">A propos de moi</span>
-      </div>
+        <span className="text-xl font-light ">A propos de moi</span>
+        <div className="flex gap-2">
+          <span className="Ange">Ange</span>
+          <span className="Kano">Kano</span>
+          <span className="Dev">Dev</span>
+        </div>
+      </Link>
     </div>
   );
 };

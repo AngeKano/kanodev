@@ -3,6 +3,8 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Script from "next/script";
+import Navbar from "./components/Navbar";
+
 
 import Navtop from "./components/Navtop";
 const inter = Inter({ subsets: ["latin"] });
@@ -17,30 +19,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  /**qsqs */
-
-  // console.log(mouse);
-
-  // useEffect(() => {
-  //   const mouse = document.querySelector("#mouse");
-  //   const sml = document.querySelector("#sml");
-  //   const click = document.querySelector("#click");
-
-  //   window.addEventListener("mousemove", (e) => {
-  //     mouse.style.top = e.pageY + "px";
-  //     mouse.style.left = e.pageX + "px";
-  //   });
-  //   window.addEventListener("mousemove", (e) => {
-  //     sml.style.top = e.pageY + "px";
-  //     sml.style.left = e.pageX + "px";
-  //   });
-  //   window.addEventListener("mousemove", (e) => {
-  //     click.style.top = e.pageY + "px";
-  //     click.style.left = e.pageX + "px";
-  //   });
-  // }, []);
-
-  /****sdsd */
   return (
     <html lang="en" className="bg-backLight overflow-hidden">
       <body className={inter.className}>
@@ -51,7 +29,10 @@ export default function RootLayout({
         <div id="click" className="bg-[#2589BD] opacity-0 "></div>
         <div id="sml" className="bg-[#2589BD]"></div>
         {children}
+        <Navbar />
       </body>
+      <Script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" />
+      <Script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" />
       <Script type="text/javascript" src="/script/script.js" />
     </html>
   );

@@ -2,24 +2,28 @@ import React from "react";
 import Image from "next/image";
 
 import Slug from "../../public/img/slugLight.png";
+import Link from "next/link";
 
 const Navtop = () => {
   return (
-    <div className="font-semibold text-4xl flex justify-between">
-      <div className="flex gap-1 items-center">
-        <Image src={Slug} alt="Code" className="w-7 h-7" />
-        <span className="text-dark-color">Kano</span>
+    <div className=" flex items-center justify-between">
+      <Link
+        href={"/"}
+        className="flex gap-1 items-center font-semibold text-3xl"
+      >
+        <Image src={Slug} alt="Code" className="w-6 h-6" />
+        <span className="text-dark-color ">Kano</span>
         <span className="text-light-color">dev.</span>
-      </div>
-      <div className="flex gap-10 items-center">
-        <div className="p-3 rounded-full border-dark-color border-[2px] flex items-center gap-1">
+      </Link>
+      <div className="flex gap-5 items-center">
+        <div className="p-2 rounded-full border-dark-color border-[1px] flex items-center gap-1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-6 h-6 "
+            className="w-4 h-4 "
           >
             <path
               strokeLinecap="round"
@@ -27,9 +31,11 @@ const Navtop = () => {
               d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
             />
           </svg>
-          <span className="text-dark-color text-sm">Télécharger mon CV</span>
+          <span className="text-dark-color font-medium text-sm">
+            Télécharger mon CV
+          </span>
         </div>
-        <div className="p-3 rounded-full bg-dark-color w-fit">
+        <div className="p-2 rounded-full bg-dark-color w-fit">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="white"
