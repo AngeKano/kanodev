@@ -5,7 +5,6 @@ import { Inter } from "next/font/google";
 import Script from "next/script";
 import Navbar from "./components/Navbar";
 
-
 import Navtop from "./components/Navtop";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,9 +30,10 @@ export default function RootLayout({
         {children}
         <Navbar />
       </body>
-      <Script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" />
-      <Script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" />
+      <Script type="text/javascript" src="/script/TimeLineMax.min.js" />
+      <Script type="text/javascript" src="/script/TweenMax.min.js" />
       <Script type="text/javascript" src="/script/script.js" />
+      <Script type="text/javascript" src="/script/scriptAbout.js" />
     </html>
   );
 }

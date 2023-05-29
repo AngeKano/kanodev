@@ -5,8 +5,8 @@ const TextFirst = () => {
   return (
     <div className="containers gap-y-2">
       <div className="flex items-center gap-2  w-fit">
-        <span className="text1">Hey, moi c'est</span>
-        <div className="relative">
+        <span className="text1 spanText">Hey, moi c'est</span>
+        <div className="relative spanTextGras">
           <span className="font-cabinetgrotesk uppercase text-[3rem] font-black text-first-color ">
             Ange Kano
           </span>
@@ -14,8 +14,8 @@ const TextFirst = () => {
         </div>
       </div>
       <div className="flex items-center gap-2 ">
-        <span className="text1">Passionner de </span>
-        <div className="relative">
+        <span className="text1 spanText1">Passionner de </span>
+        <div className="relative spanTextGras1">
           <span className="font-cabinetgrotesk uppercase text-[3rem] font-black text-first-color ">
             Design graphique
           </span>
@@ -23,7 +23,10 @@ const TextFirst = () => {
         </div>
       </div>
       <span className="text-3xl ">
-        Je suis developpeur Front-end & web integrateur
+        <span className="span1">Je suis</span>{" "}
+        <span className="span2">developpeur</span>{" "}
+        <span className="span3">Front-end &</span>{" "}
+        <span className="span4">web integrateur</span>
       </span>
       <Link
         href={"/about"}
@@ -45,11 +48,6 @@ const TextFirst = () => {
           />
         </svg>
         <span className="text-xl font-light ">A propos de moi</span>
-        <div className="flex gap-2">
-          <span className="Ange">Ange</span>
-          <span className="Kano">Kano</span>
-          <span className="Dev">Dev</span>
-        </div>
       </Link>
     </div>
   );

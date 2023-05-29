@@ -3,9 +3,17 @@ const sml = document.querySelector("#sml");
 const click = document.querySelector("#click");
 const items = document.querySelectorAll("#item");
 
-const Ange = document.querySelector(".Ange");
-const Kano = document.querySelector(".Kano");
-const Dev = document.querySelector(".Dev");
+const spanTextGras = document.querySelector(".spanTextGras");
+const spanTextGras1 = document.querySelector(".spanTextGras1");
+const spanText = document.querySelector(".spanText");
+const spanText1 = document.querySelector(".spanText1");
+
+const span1 = document.querySelector(".span1");
+const span2 = document.querySelector(".span2");
+const span3 = document.querySelector(".span3");
+const span4 = document.querySelector(".span4");
+
+
 
 const tl = new TimelineMax();
 
@@ -23,23 +31,54 @@ window.addEventListener("mousemove", (e) => {
 });
 
 tl.fromTo(
-  Ange,
+  spanText,
   0.2,
   { opacity: 0, transform: "translateY(.5rem)" },
-  { opacity: 1, transform: "translateY(0rem)" },
-  
+  { opacity: 1, transform: "translateY(0rem)" }
 )
-.fromTo(
-  Kano,
-  0.2,
-  { opacity: 0, transform: "translateY(.5rem)" },
-  { opacity: 1, transform: "translateY(0rem)" },
-  
-)
-.fromTo(
-  Dev,
-  0.2,
-  { opacity: 0, transform: "translateY(.5rem)" },
-  { opacity: 1, transform: "translateY(0rem)" },
-  
-)
+  .fromTo(
+    spanTextGras,
+    0.2,
+    { opacity: 0, transform: "translateY(.5rem)" },
+    { opacity: 1, transform: "translateY(0rem)" }
+  )
+  .fromTo(
+    spanText1,
+    0.2,
+    { opacity: 0, transform: "translateY(.5rem)" },
+    { opacity: 1, transform: "translateY(0rem)" }
+  )
+  .fromTo(
+    spanTextGras1,
+    0.2,
+    { opacity: 0, transform: "translateY(.5rem)" },
+    { opacity: 1, transform: "translateY(0rem)" }
+  )
+  .fromTo(
+    span1,
+    0.2,
+    { opacity: 0, transform: "translateY(.5rem)" },
+    { opacity: 1, transform: "translateY(0rem)" },
+    "-=.1"
+  )
+  .fromTo(
+    span2,
+    0.2,
+    { opacity: 0, transform: "translateY(.5rem)" },
+    { opacity: 1, transform: "translateY(0rem)" },
+    "-=.1"
+  )
+  .fromTo(
+    span3,
+    0.2,
+    { opacity: 0, transform: "translateY(.5rem)" },
+    { opacity: 1, transform: "translateY(0rem)" },
+    "-=.15"
+  )
+  .fromTo(
+    span4,
+    0.2,
+    { opacity: 0, transform: "translateY(.5rem)" },
+    { opacity: 1, transform: "translateY(0rem)" }
+  );
+
