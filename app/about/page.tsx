@@ -1,5 +1,6 @@
 import React from "react";
 import TitreHight from "../components/TitreHight";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -13,7 +14,11 @@ const About = () => {
           réactifs. En plus de mon travail dans le développement, j'aime aussi
           écouter de la musique et faire du sport. Dans mon temps libre, je
           réaliser souvent des challenge sur le développement que je partage sur
-          mes diffèrent <span className="underline">réseaux sociaux</span>.
+          mes diffèrent{" "}
+          <Link href={"https://github.com/AngeKano"}>
+            <span className="underline">réseaux sociaux</span>
+          </Link>
+          .
         </p>
         <div className="Other gap-3">
           <div className="font-cabinetgrotesk uppercase font-extrabold text-[2rem]">
