@@ -19,21 +19,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="bg-backLight overflow-hidden">
+    <html lang="en" className="bg-backLight ">
       <body className={inter.className}>
-        <div className="p-10">
-          <Navtop />
-        </div>
-        <div id="mouse" className="bg-color-rgba absolute "></div>
-        <div id="click" className="bg-[#2589BD] opacity-0 "></div>
-        <div id="sml" className="bg-[#2589BD]"></div>
-        {children}
-        <Navbar />
+        <section className="">
+          <div className="p-10">
+            <Navtop />
+          </div>
+          <div id="mouse" className="bg-color-rgba absolute "></div>
+          <div id="click" className="bg-[#2589BD] opacity-0 "></div>
+          <div id="sml" className="bg-[#2589BD]"></div>
+          {children}
+          <Navbar />
+        </section>
       </body>
       <Script type="text/javascript" src="/script/TimeLineMax.min.js" />
       <Script type="text/javascript" src="/script/TweenMax.min.js" />
       <Script type="text/javascript" src="/script/script.js" />
-      <Script type="text/javascript" src="/script/scriptAbout.js" />
     </html>
   );
 }
