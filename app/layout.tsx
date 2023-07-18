@@ -25,9 +25,9 @@ export default function RootLayout({
           <div className="p-10">
             <Navtop />
           </div>
-          <div id="mouse" className="bg-color-rgba absolute "></div>
+          <div id="mouse" className="bg-color-rgba  absolute "></div>
           <div id="click" className="bg-[#2589BD] opacity-0 "></div>
-          <div id="sml" className="bg-[#2589BD]"></div>
+          <div id="sml" className="bg-[#2589BD] "></div>
           {children}
           <Navbar />
         </section>

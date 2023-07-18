@@ -15,7 +15,13 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+html {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
 body {
   color: rgb(var(--foreground-rgb));
   /* background: linear-gradient(
@@ -99,5 +105,3 @@ html {
   height: 2px;
   background-color: black;
 }
-
-
