@@ -149,7 +149,7 @@ const Data_Ex_1 = [
 ];
 const Data_Ex_2 = [
   {
-    Label: "Allo DocteurPC",
+    Label: "Allo Docteur PC",
     Poste: "Developper web/Mobile",
     Date: "Juin 2022 - Aout 2022",
     Lieu: "Angré Nouveau CHU, Abidjan",
