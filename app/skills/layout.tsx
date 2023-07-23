@@ -10,7 +10,7 @@ export default function DashboardLayout({
       {children}
       <Script type="text/javascript" src="/script/TimeLineMax.min.js" />
       <Script type="text/javascript" src="/script/TweenMax.min.js" />
-      <Script type="text/javascript" src="/script/scriptExp.js" />
+      <Script type="text/javascript" src="/script/scriptSkills.js" />
     </section>
   );
 }

@@ -12,13 +12,13 @@ function Experience() {
         {Data_Ex.map((items) => (
           <div className="flex justify-around mb-11 border-b-2 border-light-color border-opacity-30 py-2">
             <div className="flex-1 gap-3">
-              <p className="text-xl font-cabinetgrotesk uppercase font-black">
+              <p className=" Label text-xl font-cabinetgrotesk uppercase font-black">
                 {items.Label}
               </p>
-              <span className="text-xl">{items.Poste}</span>
+              <span className=" Poste text-xl">{items.Poste}</span>
               <div className="flex gap-2 mt-7">
                 {items.Techno.map((items) => (
-                  <div className="p-2 rounded-full border-2 justify-center items-center">
+                  <div className=" Exp p-2 rounded-full border-2 justify-center items-center">
                     <span>{items.Label}</span>
                   </div>
                 ))}
@@ -26,12 +26,12 @@ function Experience() {
             </div>
             <div className="flex-1 justify-between flex flex-col">
               <div className="flex items-end flex-col">
-                <span className="text-gray-600">{items.Date}</span>
-                <span className="font-medium">{items.Lieu}</span>
+                <span className="text-gray-600 Periode">{items.Date}</span>
+                <span className="font-medium Lieu">{items.Lieu}</span>
               </div>
               <a
                 href={items.LienDirect}
-                className="items-end justify-end flex text-gray-600"
+                className="Web items-end justify-end flex text-gray-600"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
