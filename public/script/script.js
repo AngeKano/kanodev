@@ -7,6 +7,8 @@ const spanTextGras = document.querySelector(".spanTextGras");
 const spanTextGras1 = document.querySelector(".spanTextGras1");
 const spanText = document.querySelector(".spanText");
 const spanText1 = document.querySelector(".spanText1");
+const About = document.querySelector(".About");
+
 
 const span1 = document.querySelector(".span1");
 const span2 = document.querySelector(".span2");
@@ -80,5 +82,13 @@ tl.fromTo(
     0.2,
     { opacity: 0, transform: "translateY(.5rem)" },
     { opacity: 1, transform: "translateY(0rem)" }
+  )
+  .fromTo(
+    About,
+    0.2,
+    { opacity: 0, transform: "translateY(.5rem)" },
+    { opacity: 1, transform: "translateY(0rem)" },
+    "-=.3"
+
   );
 

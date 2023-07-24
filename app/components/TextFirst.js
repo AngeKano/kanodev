@@ -31,7 +31,7 @@ const TextFirst = () => {
       <Link
         href={"/about"}
         id="text"
-        class="flex items-center gap-x-2 mt-6 relative "
+        class=" About flex items-center gap-x-2 mt-6 relative "
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ const TextFirst = () => {
             d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
           />
         </svg>
-        <span className="text-xl font-light ">A propos de moi</span>
+        <span className=" text-xl font-light ">A propos de moi</span>
       </Link>
     </div>
   );
