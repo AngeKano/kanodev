@@ -16,7 +16,11 @@ const Navtop = () => {
         <span className="text-light-color">dev.</span>
       </Link>
       <div className="flex gap-5 items-center">
-        <div className="p-2 rounded-full border-dark-color border-[1px] flex items-center gap-1">
+        <a
+          href="https://drive.google.com/file/d/17S9kKZ-BAntR4xnDOebKNjgPSLqxJfjb/view?usp=drive_link"
+          download="CV Ange KANO Dev PDF.pdf"
+          className="p-2 rounded-full border-dark-color border-[1px] flex items-center gap-1"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -34,7 +38,7 @@ const Navtop = () => {
           <span className="text-dark-color font-medium text-sm">
             Télécharger mon CV
           </span>
-        </div>
+        </a>
         <div className="p-2 rounded-full bg-dark-color w-fit">
           <svg
             xmlns="http://www.w3.org/2000/svg"
