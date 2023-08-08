@@ -1,10 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-
 
 const itemNavbar = (props) => {
-  const router = useRouter()
   return (
     <Link href={props.link}>
       <div
