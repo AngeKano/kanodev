@@ -14,7 +14,7 @@ const Contact = () => {
             First section
           </span>
         </Link>
-        <div className="h-full contactActive rounded-2xl "></div>
+        <div className="h-full contactActive rounded-2xl ">Ange KANO 002</div>
         <Link
           href={"/"}
           className="h-full flex flex-1 flex-col gap-y-10 bg-first-color rounded-2xl items-center justify-center "
