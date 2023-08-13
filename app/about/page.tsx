@@ -1,6 +1,7 @@
 import React from "react";
 import TitreHight from "../components/TitreHight";
 import Link from "next/link";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -35,7 +36,12 @@ const About = () => {
         </div>
       </section>
       <section className="flex-1 bg-black">
-        <span>azezer</span>
+        <Image
+          src="/img/images/PhotoCV.jpg"
+          width={500}
+          height={500}
+          alt="Picture of the author"
+        />
       </section>
     </main>
   );
