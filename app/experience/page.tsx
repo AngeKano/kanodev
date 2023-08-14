@@ -1,7 +1,6 @@
 import React from "react";
 import TitreHight from "../components/TitreHight";
 import Data from "../data";
-import Link from "next/link";
 
 function Experience() {
   const { Data_Ex, Data_Ex_1, Data_Ex_2 } = Data;
