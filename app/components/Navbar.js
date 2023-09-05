@@ -10,7 +10,7 @@ const Navbar = () => {
       <ItemNavbar
         label="Accueil"
         active={path == "/" ? "true" : "false"}
-        link="/"
+        link="/"  
       />
       <ItemNavbar
         label="A Propos"
