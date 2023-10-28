@@ -108,6 +108,5 @@ html {
 
 
 .contactActive {
-  flex: 3;
   background-color: aqua;
 }
