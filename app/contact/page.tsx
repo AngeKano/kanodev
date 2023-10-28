@@ -11,7 +11,7 @@ const Contact = () => {
         >
           <div className="w-36 h-36 rounded-full bg-yellow-600"></div>
           <span className="font-semibold text-xl text-white ">
-            First section 0151831681/07
+            
           </span>
         </Link>
         <div className="h-full contactActive rounded-2xl ">Ange KANO 002</div>
@@ -21,7 +21,7 @@ const Contact = () => {
         >
           <div className="w-36 h-36 rounded-full bg-yellow-600"></div>
           <span className="font-semibold text-xl text-white ">
-            Third Section
+            
           </span>
         </Link>
       </div>
