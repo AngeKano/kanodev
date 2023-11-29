@@ -6,7 +6,7 @@ const Navbar = () => {
   const path = usePathname();
 
   return (
-    <div className="flex gap-3 py-2 px-2 bg-[#272838] rounded-full fixed top-[90%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
+    <div className="flex gap-3 py-2 px-4 bg-[#272838] rounded-full fixed top-[90%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
       <ItemNavbar
         label="Accueil"
         active={path == "/" ? "true" : "false"}
