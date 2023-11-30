@@ -19,7 +19,7 @@ const Contact = () => {
           }
         >
           <div className="w-36 h-36 rounded-full bg-yellow-600"></div>
-          <span className="font-semibold text-xl text-white ">aezazaze</span>
+          <span className="font-semibold text-xl text-white ">Ange Kano</span>
         </button>
 
         {/* : "h-full flex flex-col p-4  justify-center flex-1 rounded-2xl transition-all ease-in " */}
@@ -55,7 +55,7 @@ const Contact = () => {
               <button className="py-2 px-4 bg-dark-color rounded-full font-medium text-white ">
                 ENVOYER
               </button>
-              <button className="svg py-2 px-2 bg-gray-100 rounded-full font-medium text-dark-color  ">
+              <button className=" py-2 px-2 bg-gray-100 rounded-full font-medium text-dark-color  ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -105,7 +105,7 @@ const Contact = () => {
               <button className="py-2 px-4 bg-dark-color rounded-full font-medium text-white ">
                 ENVOYER
               </button>
-              <button className="svg py-2 px-2 bg-gray-100 rounded-full font-medium text-dark-color  ">
+              <button className=" py-2 px-2 bg-gray-100 rounded-full font-medium text-dark-color  ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
