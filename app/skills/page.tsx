@@ -20,7 +20,12 @@ const Skills = () => {
                 >
                   <img src={item.img_lien} alt="" />
                 </div>
-                <p className="TextAnim text-lg" style={{ color: item.first_color }}>{item.nom}</p>
+                <p
+                  className="TextAnim text-lg"
+                  style={{ color: item.first_color }}
+                >
+                  {item.nom}
+                </p>
               </div>
             ))}
           </div>

@@ -126,10 +126,13 @@ const Contact = () => {
               Laissez un commentaire 😇
             </span>
             <div className="flex flex-col items-start  gap-y-2 w-full">
-              <span className="text-xl font-medium">Email 📧</span>
+              <label htmlFor="email" className="text-xl font-medium">
+                Email 📧
+              </label>
               <input
                 type="email"
-                className="w-full rounded-full py-2 px-3 outline-none  "
+                id="email"
+                className="w-full rounded-full py-2 px-3 outline-none"
               />
             </div>
             <div className="flex flex-col items-start gap-y-2 w-full">
@@ -149,6 +152,7 @@ const Contact = () => {
                 ENVOYER
               </button>
               <button
+                title="Null"
                 type="button"
                 className=" py-2 px-2 bg-gray-100 rounded-full font-medium text-dark-color  "
               >
