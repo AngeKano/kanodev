@@ -17,7 +17,7 @@ const TextFirst = () => {
         <span className="text1 spanText1">Passionner de </span>
         <div className="relative spanTextGras1">
           <span className="font-cabinetgrotesk uppercase text-[3rem] font-black text-first-color ">
-            Design graphique gfd
+            Design graphique
           </span>
           <div className="absolute border-t-2 bg-light-color border-t-first-color w-full h-6 bg-opacity-25 top-0 left-0 translate-x-0 translate-y-11 -z-1"></div>
         </div>

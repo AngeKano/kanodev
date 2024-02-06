@@ -22,9 +22,9 @@ export default function RootLayout({
     <html lang="en" className="bg-backLight ">
       <body className={inter.className}>
         <section className="">
-          <div id="mouse" className="bg-color-rgba z-10  absolute "></div>
-          <div id="click" className="bg-[#2589BD]    opacity-0 "></div>
-          <div id="sml" className="bg-[#2589BD]   "></div>
+          <div id="mouse" className="bg-color-rgba z-10 absolute "></div>
+          <div id="click" className="bg-[#2589BD] opacity-0 "></div>
+          <div id="sml" className="bg-[#2589BD] "></div>
           <div className="p-10">
             <Navtop />
           </div>

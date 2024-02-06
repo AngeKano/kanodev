@@ -17,7 +17,7 @@ const Contact = () => {
               setActive(1);
             }}
             className={
-              "h-full flex flex-[3] p-4 flex-col gap-y-10 rounded-2xl items-center justify-center bg-gray-100 transition-transform ease-in "
+              "h-full flex flex-[3] py-6 flex-col gap-y-10 rounded-2xl items-center justify-center bg-gray-100 ease-in "
             }
           >
             <span className="font-semibold text-2xl">Mes informations 📰</span>
@@ -27,13 +27,13 @@ const Contact = () => {
                 width={100}
                 height={100}
                 alt="User Perso"
-                className="rounded-full flex flex-row "
+                className="rounded-full flex flex-row"
               />
               <div className="flex flex-col gap-y-1 items-start justify-start ">
                 <span className="text-lg font-semibold">
                   Ange Kano Stephane
                 </span>
-                <span className=" ">Dev Front-end / Mobile </span>
+                <span className=" ">Dev Front-end / Mobile</span>
                 <span className="text-sm font-light">
                   Abidjan, Côte d'Ivoire
                 </span>
@@ -107,15 +107,25 @@ const Contact = () => {
               setActive(1);
             }}
             className={
-              "h-full flex flex-1 flex-col gap-y-10 bg-first-color rounded-2xl items-center justify-center  transition-all ease-in "
+              "h-full flex flex-1 flex-col gap-y-10 bg-gray-400 bg-opacity-10 rounded-2xl items-center justify-center  transition-all ease-in "
             }
           >
-            <div className="w-36 h-36 rounded-full bg-yellow-600"></div>
-            <span className="font-semibold text-xl text-white ">Ange Kano</span>
+            <div className="flex flex-row justify-center items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="100"
+                width="100"
+                viewBox="0 0 512 512"
+              >
+                <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
+              </svg>
+            </div>
+            <span className="font-semibold text-xl text-black ">
+              Information
+            </span>
           </button>
         )}
 
-        {/* : "h-full flex flex-col p-4  justify-center flex-1 rounded-2xl transition-all ease-in " */}
         {active == 2 ? (
           <button
             type="button"
@@ -123,7 +133,7 @@ const Contact = () => {
               setActive(2);
             }}
             className={
-              "h-full flex flex-col p-4 gap-y-4 items-center justify-center flex-[3] rounded-2xl transition-all ease-in cursor-none seteez w-full bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100 "
+              "h-full flex flex-col p-4 gap-y-4 items-center justify-center flex-[3] rounded-2xl ease-in cursor-none seteez w-full bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100 "
             }
           >
             <span className="font-semibold text-2xl">

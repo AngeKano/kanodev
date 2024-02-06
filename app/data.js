@@ -90,29 +90,6 @@ const Data_Ex = [
       },
     ],
   },
-  {
-    Label: "Barahub",
-    Poste: "Developper web",
-    Date: "Juin 2022 - Present",
-    Lieu: "Treichville, Abidjan",
-    Lien: "Linkedln",
-    LienDirect: "https://www.linkedin.com/company/barahub/",
-
-    Techno: [
-      {
-        Label: "React JS",
-      },
-      {
-        Label: "Tailwind CSS",
-      },
-      {
-        Label: "Node JS",
-      },
-      {
-        Label: "GitHub",
-      },
-    ],
-  },
 ];
 const Data_Ex_1 = [
   {
