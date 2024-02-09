@@ -22,4 +22,10 @@ tl1
     0.2,
     { opacity: 0, transform: "translateY(.5rem)" },
     { opacity: 1, transform: "translateY(0rem)" }
+  )
+  .fromTo(
+    Other,
+    0.2,
+    { opacity: 0, transform: "translateY(.5rem)" },
+    { opacity: 1, transform: "translateY(0rem)" }
   );
