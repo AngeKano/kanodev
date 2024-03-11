@@ -3,6 +3,7 @@ const sml = document.querySelector("#sml");
 const click = document.querySelector("#click");
 const items = document.querySelectorAll("#item");
 
+
 const spanTextGras = document.querySelector(".spanTextGras");
 const spanTextGras1 = document.querySelector(".spanTextGras1");
 const spanText = document.querySelector(".spanText");
