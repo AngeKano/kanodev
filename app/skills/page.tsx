@@ -1,16 +1,18 @@
+"use client";
 import React from "react";
 import TitreHight from "../components/TitreHight";
 import Data from "../data";
+
 const Skills = () => {
   const { Skills } = Data;
   return (
     <main className="flex min-h-screen flex-col px-[3%] gap-y-20 mb-24 ">
-      {Skills.map((item) => (
-        <div className="flex flex-col ">
+      {Skills.map((item, key) => (
+        <div key={key} className="flex flex-col ">
           <TitreHight text={item.Label} />
           <div className="mt-11 gap-14 flex">
-            {item.langage.map((item) => (
-              <div className="flex flex-col items-center">
+            {item.langage.map((item, key) => (
+              <div key={key} className="flex flex-col items-center">
                 <div
                   className="Bulle w-[80px] h-[80px] rounded-full border-2 flex items-center justify-center"
                   style={{

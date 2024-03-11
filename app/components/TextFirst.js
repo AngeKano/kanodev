@@ -1,3 +1,4 @@
+
 import React from "react";
 import Link from "next/link";
 
@@ -5,7 +6,7 @@ const TextFirst = () => {
   return (
     <div className="containers gap-y-2">
       <div className="flex items-center gap-2  w-fit">
-        <span className="text1 spanText">Hey, moi c'est</span>
+        <span className="text1 spanText">Hey, moi c&apos;est</span>
         <div className="relative spanTextGras">
           <span className="font-cabinetgrotesk uppercase text-[3rem] font-black text-first-color ">
             Ange Kano

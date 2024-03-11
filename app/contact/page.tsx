@@ -1,8 +1,7 @@
-"use client";
-
+"use client"
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 const Contact = () => {
   const [active, setActive] = useState(2);
@@ -38,7 +37,7 @@ const Contact = () => {
                   </span>
                   <span className=" ">Dev Front-end / Mobile</span>
                   <span className="text-sm font-light">
-                    Abidjan, Côte d'Ivoire
+                    Abidjan, Côte d&apos;Ivoire
                   </span>
                 </div>
               </div>
@@ -153,7 +152,7 @@ const Contact = () => {
                 />
               </div>
               <div className="flex flex-col items-start gap-y-2 w-full">
-                <span className="text-xl font-medium">Merci d'avance 👋</span>
+                <span className="text-xl font-medium">Merci d&apos;avance 👋</span>
                 <textarea
                   name=""
                   id=""
@@ -217,7 +216,6 @@ const Contact = () => {
           )}
         </div>
       </div>
-      
     </main>
   );
 };

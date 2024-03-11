@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import TitreHight from "../components/TitreHight";
 import Data from "../data";
@@ -8,16 +9,22 @@ function Experience() {
     <main className="flex min-h-screen flex-col px-[3%] ">
       <TitreHight text="travail" />
       <div className="mt-11 gap-y-11">
-        {Data_Ex.map((items) => (
-          <div className="flex justify-around mb-11 border-b-2 border-light-color border-opacity-30 py-2">
+        {Data_Ex.map((items, key) => (
+          <div
+            key={key}
+            className="flex justify-around mb-11 border-b-2 border-light-color border-opacity-30 py-2"
+          >
             <div className="flex-1 gap-3">
               <p className=" Label text-xl font-cabinetgrotesk uppercase font-black">
                 {items.Label}
               </p>
               <span className=" Poste text-xl">{items.Poste}</span>
               <div className="flex gap-2 mt-7">
-                {items.Techno.map((items) => (
-                  <div className=" Exp p-2 rounded-full border-2 justify-center items-center">
+                {items.Techno.map((items, key) => (
+                  <div
+                    key={key}
+                    className=" Exp p-2 rounded-full border-2 justify-center items-center"
+                  >
                     <span>{items.Label}</span>
                   </div>
                 ))}
@@ -55,16 +62,22 @@ function Experience() {
 
       <TitreHight text="Stage" />
       <div className="mt-11 gap-y-11">
-        {Data_Ex_2.map((items) => (
-          <div className="flex justify-around mb-11 border-b-2 border-light-color border-opacity-30 py-2">
+        {Data_Ex_2.map((items, key) => (
+          <div
+            key={key}
+            className="flex justify-around mb-11 border-b-2 border-light-color border-opacity-30 py-2"
+          >
             <div className="flex-1 gap-3">
               <p className="text-xl font-cabinetgrotesk uppercase font-black">
                 {items.Label}
               </p>
               <span className="text-xl">{items.Poste}</span>
               <div className="flex gap-2 mt-7">
-                {items.Techno.map((items) => (
-                  <div className="p-2 rounded-full border-2 justify-center items-center">
+                {items.Techno.map((items, key) => (
+                  <div
+                    key={key}
+                    className="p-2 rounded-full border-2 justify-center items-center"
+                  >
                     <span>{items.Label}</span>
                   </div>
                 ))}
@@ -102,8 +115,11 @@ function Experience() {
       <div className="mt-11 gap-y-11"></div>
       <TitreHight text="Cursus Scolaire" />
       <div className="mt-11 gap-y-11">
-        {Data_Ex_1.map((items) => (
-          <div className="flex justify-around mb-11 border-b-2 border-light-color border-opacity-30 py-2">
+        {Data_Ex_1.map((items, key) => (
+          <div
+            key={key}
+            className="flex justify-around mb-11 border-b-2 border-light-color border-opacity-30 py-2"
+          >
             <div className="flex-1 gap-3">
               <p className="text-xl font-cabinetgrotesk uppercase font-black">
                 {items.Label}
